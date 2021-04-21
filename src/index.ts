@@ -1,0 +1,1 @@
+export const nodeLibSum = (a: number, b: number): number => a + b;
