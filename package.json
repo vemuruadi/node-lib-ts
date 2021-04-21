@@ -1,6 +1,6 @@
 {
   "name": "@vemuruadi/node-lib-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Starter for Node.js libraries with TypeScript",
   "main": "build/index.js",
   "module": "build/index.es.js",
@@ -9,6 +9,10 @@
     "build": "rollup -c",
     "lint": "standard",
     "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vemuruadi/node-lib-ts.git"
   },
   "files": [
     "build"
@@ -39,6 +43,7 @@
     "typescript",
     "library"
   ],
+  "homepage": "https://github.com/vemuruadi/node-lib-ts#readme",
   "author": "Adi Vemuru",
   "license": "MIT"
 }
